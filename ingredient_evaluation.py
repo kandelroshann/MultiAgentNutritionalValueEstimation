@@ -9,12 +9,7 @@ This version includes DISK CACHING to avoid repeated OpenAI calls:
   - First run: calls ingredients_agent() and saves predictions to JSON
   - Subsequent runs: loads predictions from cache instead of calling the API
 
-Usage:
-    python ingredient_evaluation.py \
-        -n /path/to/nutrition5k \
-        --out-csv ingredient_eval_results.csv \
-        --max-images 500 \
-        --print-samples
+Could not be implemented completely. 
 """
 
 import os
