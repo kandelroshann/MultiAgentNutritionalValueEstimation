@@ -1,0 +1,20 @@
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.env
+.venv/
+venv/
+
+# Not for GitHub: large datasets / outputs
+dish_images.pkl
+dishes.xlsx
+dish_ingredients.xlsx
+ingredients.xlsx
+Nutrition5k/
+images/
+outputs/
+*.xlsx
